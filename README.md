@@ -36,6 +36,14 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 # Video
 # Installation
 # Usage
+The first thing to do is to clone the Starter Code Repository.
+
+Type 'npm init' in the terminal to get package.json.
+
+Type 'npm install express' in the terminal to install dependencies for the project.
+
+Type 'node server.js' to initiate the server.
+
 # Tests
 # Contributing
 [Starter Code](git@github.com:coding-boot-camp/miniature-eureka.git)
