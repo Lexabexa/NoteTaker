@@ -63,9 +63,12 @@ Type 'npm install express' in the terminal to install dependencies for the proje
 
 Type 'node server.js' to initiate the server.
 
+your choice to use [nodemon](https://www.npmjs.com/package/nodemon)
+
 # Tests
 # Contributing
 [Starter Code](git@github.com:coding-boot-camp/miniature-eureka.git)
+
 
 [Jest](https://www.npmjs.com/package/jest)
 
