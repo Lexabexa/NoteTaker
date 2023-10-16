@@ -1,9 +1,10 @@
 //server and dependencies
 const express = require('express');
 const app = express(); //express server
-const fs = require('fs');
+const fs = require('fs');//node
 const path = require('path');
 const notes = require('./db/db.json');
+const { get } = require('http');
 
 //PORT heroku or local
 const PORT = process.env.PORT || 3001;
@@ -16,6 +17,12 @@ app.use(express.static('public'));
 //route index.html
 app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, './public/notes.html'));
+});
+app.get('/assets/js/index.js', (req, res) => {
+    res.sendFile(path.join(__dirname, './public/assets/js/index.js'));
+});
+app.get('/assets/css/styles.css', (req, res) => {
+    res.sendFile(path.join(__dirname, './public/assets/css/styles.css'));
 });
 
 //route notes.html

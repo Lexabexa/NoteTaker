@@ -54,6 +54,8 @@ DELETE /api/notes/:id should receive a query parameter containing the id of a no
 # Link
 # Video
 # Installation
+[npm i json-server](https://www.npmjs.com/package/json-server)
+
 # Usage
 The first thing to do is to clone the Starter Code Repository.
 
